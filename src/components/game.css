@@ -1,0 +1,49 @@
+/*editing the text UI*/
+.game{
+    padding: 45px;
+    margin-bottom: 25px;
+}
+
+.guessed-letters{
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.guess{
+    font-size: 20px;
+}
+
+.message{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+}
+
+/*editing the buttons*/
+.reset-btn{
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+    background-color: forestgreen;
+    margin-right: 9px;
+    cursor: pointer;
+}
+
+.reset-btn:hover {
+    background-color: lawngreen;
+}
+
+.help-btn{
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+    background-color: forestgreen;
+    margin-left: 9px;
+    cursor: pointer;
+}
+
+.help-btn:hover {
+    background-color: lawngreen;
+}

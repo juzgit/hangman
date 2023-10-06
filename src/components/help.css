@@ -1,0 +1,17 @@
+/*editing the content*/
+.help-content{
+    padding: 25px;
+}
+
+/*editing the close button*/
+.close{
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+    background-color: forestgreen;
+    cursor: pointer;
+}
+
+.close:hover {
+    background-color: lawngreen;
+  }

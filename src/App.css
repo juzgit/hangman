@@ -1,0 +1,10 @@
+/*make the components align in the center*/
+.App {
+  text-align: center;
+}
+/*changed the background colour*/
+body{
+  background-color: darkolivegreen;
+}
+
+

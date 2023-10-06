@@ -1,0 +1,26 @@
+/*editing the keyboard buttons*/
+.keyboard{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 6px;
+    column-gap: 10px;
+    margin-left: 55px;
+    margin-top: 7px;
+    margin-bottom: 15px;
+}
+
+.keyboard button {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: lightgreen;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .keyboard button:hover {
+    background-color: lawngreen;
+  }

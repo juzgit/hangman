@@ -1,0 +1,10 @@
+/*made the font size bigger for the correct letter*/
+.words{
+    font-size: 24px;
+}
+
+/*spacing the underscores and making them bigger*/
+.words span{
+    font-size: 36px;
+    margin-right: 10px;
+}
