@@ -17,9 +17,6 @@ To run this Hangman game on your local machine, follow these steps:
 Make sure you have Node.js and npm installed. Then, install the project dependencies using:
 npm install
 
-Change directory to the folder:
-cd 
-
 Start the Game:
 Run the following command to start the Hangman game:
 npm start
