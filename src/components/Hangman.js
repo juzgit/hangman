@@ -7,13 +7,13 @@ const Hangman = ({ incorrectGuesses }) => {
     //contains the file paths to different Hangman images. 
     //Each image represents a different state of the Hangman drawing.
     const hangmanImages = [
-        "./hangmandrawings/state5.gif", //default
-        "./hangmandrawings/state6.gif",
-        "./hangmandrawings/state7.gif",
-        "./hangmandrawings/state8.gif",
-        "./hangmandrawings/state9.gif",
-        "./hangmandrawings/state10.gif",
-        "./hangmandrawings/state11.gif"
+        process.env.PUBLIC_URL + "./hangmandrawings/state5.gif", //default
+        process.env.PUBLIC_URL + "./hangmandrawings/state6.gif",
+        process.env.PUBLIC_URL + "./hangmandrawings/state7.gif",
+        process.env.PUBLIC_URL + "./hangmandrawings/state8.gif",
+        process.env.PUBLIC_URL + "./hangmandrawings/state9.gif",
+        process.env.PUBLIC_URL + "./hangmandrawings/state10.gif",
+        process.env.PUBLIC_URL + "./hangmandrawings/state11.gif"
     ];
 
     //calculate the image URL based on the number of incorrect guesses
@@ -23,7 +23,7 @@ const Hangman = ({ incorrectGuesses }) => {
      : hangmanImages[maxIncorrectGuesses - 1];
 
     //render the Hangman image with the appropriate URL
-     return <img className="hangman" src={imageUrl} alt={`Hangman -${incorrectGuesses} incorrect guesses`} />;
+     return <img className="hangman" src={imageUrl} alt={`Hangman - ${incorrectGuesses} incorrect guesses`} />;
 };
 
 export default Hangman;
